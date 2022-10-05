@@ -12,14 +12,12 @@ public class Main {
     public static void main(String[] args) {
         // child class object
 	    ChildClass childClass = new ChildClass();
-        childClass.testInput();
-        childClass.differences(childClass.preTestInput, childClass.postTestInput);
-        childClass.summationDifference(childClass.differences);
-        childClass.summationSquared(childClass.differences);
-        childClass.computeMean(childClass.preTest, childClass.postTest);
-        childClass.tValue();
-
-
+            childClass.testInput();
+            childClass.differences(childClass.preTestInput, childClass.postTestInput);
+            childClass.summationDifference(childClass.differences);
+            childClass.summationSquared(childClass.differences);
+            childClass.computeMean(childClass.preTest, childClass.postTest);
+            childClass.tValue();
     }
 }
 // Abstract Parent class with abstract methods
